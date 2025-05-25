@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, Nova is listening."
+    return "Hello, Nova is naughty."
 
 if __name__ == "__main__":
     import os
